@@ -3,7 +3,7 @@
 
   // --- General Authentication ---
   // API Key for llm proxy.
-  "PROXY_API_KEY": "YOUR-PROXY-API-KEY",
+  "PROXY_API_KEY": "nihaoya",
 
   // --- AI Gateway ---
   "CLOUDFLARE_ACCOUNT_ID": null,
@@ -44,14 +44,14 @@
 
   // --- Custom OpenAI Compatible Endpoints ---
   "CUSTOM_OPENAI_ENDPOINTS": [
-    // {
-    //   "name": "my-custom-llm",
-    //   "baseUrl": "https://llm.example.com/v1",
-    //   "apiKeys": [],
-    //   "models": ["model-1", "model-2"] // Optional
-    //   "chatCompletionPath": "/v1/chat/completions", // Optional
-    //   "modelsPath": "/v1/models" // Optional
-    // }
+     {
+       "name": "nvidia-nim",
+       "baseUrl": "https://integrate.api.nvidia.com/v1",
+       "apiKeys": ["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"],
+       "models": ["z-ai/glm5"] // Optional
+       "chatCompletionPath": "/v1/chat/completions", // Optional
+       "modelsPath": "/v1/models" // Optional
+     }
   ],
 
   // --- Configurations ---
